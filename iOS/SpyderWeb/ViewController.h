@@ -6,7 +6,7 @@
 //  Copyright © 2017 Morris Chen. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface ViewController : UIViewController
 
