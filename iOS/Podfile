@@ -6,6 +6,7 @@ target 'SpyderWeb' do
   use_frameworks!
 
   # Pods for SpyderWeb
+  pod 'Firebase/Core'
 
   target 'SpyderWebTests' do
     inherit! :search_paths
