@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6F5904142379A4D28C6AC6 /* Pods_SpyderWebTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F9F0F004D9492251B19E0B /* Pods_SpyderWebTests.framework */; };
+		8755C93353CEE5409DED8DB4 /* Pods_SpyderWebUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4871FE74EB869098725B9328 /* Pods_SpyderWebUITests.framework */; };
 		A54FF6F71F70A66100A71059 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FF6F61F70A66100A71059 /* main.m */; };
 		A54FF6FA1F70A66100A71059 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FF6F91F70A66100A71059 /* AppDelegate.m */; };
 		A54FF6FD1F70A66100A71059 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54FF6FC1F70A66100A71059 /* ViewController.m */; };
@@ -20,6 +22,7 @@
 		A54FF77E1F71C9D500A71059 /* LockScreenScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54FF77D1F71C9D500A71059 /* LockScreenScene.swift */; };
 		A56894DC1F73650200A6B07E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A56894DB1F73650200A6B07E /* GoogleService-Info.plist */; };
 		A5F8E0D81F72944700290EE4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E0D71F72944700290EE4 /* MainViewController.m */; };
+		C49CE770437813E7CBFFFDAA /* Pods_SpyderWeb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE497752E14F4836C06F01E4 /* Pods_SpyderWeb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022479F3BEADF22DEAA2F2B8 /* Pods-SpyderWebUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyderWebUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyderWebUITests/Pods-SpyderWebUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20F9F0F004D9492251B19E0B /* Pods_SpyderWebTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyderWebTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B7B122A2BA7DAD47CD618E /* Pods-SpyderWebUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyderWebUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyderWebUITests/Pods-SpyderWebUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37050FB305BD9835C0003B53 /* Pods-SpyderWebTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyderWebTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyderWebTests/Pods-SpyderWebTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4871FE74EB869098725B9328 /* Pods_SpyderWebUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyderWebUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A75E12E04A07F35F674FDC /* Pods-SpyderWebTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyderWebTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyderWebTests/Pods-SpyderWebTests.release.xcconfig"; sourceTree = "<group>"; };
 		A54FF6F21F70A66100A71059 /* SpyderWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyderWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54FF6F61F70A66100A71059 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A54FF6F81F70A66100A71059 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +72,9 @@
 		A56894DB1F73650200A6B07E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A5F8E0D61F72943300290EE4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A5F8E0D71F72944700290EE4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C18CA0CF56CC1665470D9842 /* Pods-SpyderWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyderWeb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyderWeb/Pods-SpyderWeb.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D883089485235CF549FEBA /* Pods-SpyderWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyderWeb.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyderWeb/Pods-SpyderWeb.release.xcconfig"; sourceTree = "<group>"; };
+		CE497752E14F4836C06F01E4 /* Pods_SpyderWeb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyderWeb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49CE770437813E7CBFFFDAA /* Pods_SpyderWeb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F5904142379A4D28C6AC6 /* Pods_SpyderWebTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8755C93353CEE5409DED8DB4 /* Pods_SpyderWebUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03D8A42711B9560D932B977E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE497752E14F4836C06F01E4 /* Pods_SpyderWeb.framework */,
+				20F9F0F004D9492251B19E0B /* Pods_SpyderWebTests.framework */,
+				4871FE74EB869098725B9328 /* Pods_SpyderWebUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B9B1754509142DF5994506A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C18CA0CF56CC1665470D9842 /* Pods-SpyderWeb.debug.xcconfig */,
+				C7D883089485235CF549FEBA /* Pods-SpyderWeb.release.xcconfig */,
+				37050FB305BD9835C0003B53 /* Pods-SpyderWebTests.debug.xcconfig */,
+				56A75E12E04A07F35F674FDC /* Pods-SpyderWebTests.release.xcconfig */,
+				24B7B122A2BA7DAD47CD618E /* Pods-SpyderWebUITests.debug.xcconfig */,
+				022479F3BEADF22DEAA2F2B8 /* Pods-SpyderWebUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A54FF6E91F70A66100A71059 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +135,8 @@
 				A54FF70E1F70A66100A71059 /* SpyderWebTests */,
 				A54FF7191F70A66100A71059 /* SpyderWebUITests */,
 				A54FF6F31F70A66100A71059 /* Products */,
+				7B9B1754509142DF5994506A /* Pods */,
+				03D8A42711B9560D932B977E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54FF71F1F70A66100A71059 /* Build configuration list for PBXNativeTarget "SpyderWeb" */;
 			buildPhases = (
+				D04BBB49267D4E290E47D1F3 /* [CP] Check Pods Manifest.lock */,
 				A54FF6EE1F70A66100A71059 /* Sources */,
 				A54FF6EF1F70A66100A71059 /* Frameworks */,
 				A54FF6F01F70A66100A71059 /* Resources */,
+				DEF8706BAA230B6348E4B1A9 /* [CP] Embed Pods Frameworks */,
+				7AFDEC6316293C84F91FACF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54FF7221F70A66100A71059 /* Build configuration list for PBXNativeTarget "SpyderWebTests" */;
 			buildPhases = (
+				AA347C0DEDD9C3E8CCFAB9E5 /* [CP] Check Pods Manifest.lock */,
 				A54FF7071F70A66100A71059 /* Sources */,
 				A54FF7081F70A66100A71059 /* Frameworks */,
 				A54FF7091F70A66100A71059 /* Resources */,
+				CEF123410575A46683C721A9 /* [CP] Embed Pods Frameworks */,
+				B729343433B62A43643B076C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54FF7251F70A66100A71059 /* Build configuration list for PBXNativeTarget "SpyderWebUITests" */;
 			buildPhases = (
+				43E26FA8D2EEB20B33D48194 /* [CP] Check Pods Manifest.lock */,
 				A54FF7121F70A66100A71059 /* Sources */,
 				A54FF7131F70A66100A71059 /* Frameworks */,
 				A54FF7141F70A66100A71059 /* Resources */,
+				AA91405A26BA6D034655CB5D /* [CP] Embed Pods Frameworks */,
+				9441CA048ED674D66CB83471 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +349,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43E26FA8D2EEB20B33D48194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AFDEC6316293C84F91FACF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyderWeb/Pods-SpyderWeb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9441CA048ED674D66CB83471 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyderWebUITests/Pods-SpyderWebUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA347C0DEDD9C3E8CCFAB9E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA91405A26BA6D034655CB5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyderWebUITests/Pods-SpyderWebUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B729343433B62A43643B076C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyderWebTests/Pods-SpyderWebTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF123410575A46683C721A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyderWebTests/Pods-SpyderWebTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04BBB49267D4E290E47D1F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF8706BAA230B6348E4B1A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyderWeb/Pods-SpyderWeb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A54FF6EE1F70A66100A71059 /* Sources */ = {
@@ -460,6 +647,7 @@
 		};
 		A54FF7201F70A66100A71059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18CA0CF56CC1665470D9842 /* Pods-SpyderWeb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -476,6 +664,7 @@
 		};
 		A54FF7211F70A66100A71059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D883089485235CF549FEBA /* Pods-SpyderWeb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -491,6 +680,7 @@
 		};
 		A54FF7231F70A66100A71059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37050FB305BD9835C0003B53 /* Pods-SpyderWebTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +695,7 @@
 		};
 		A54FF7241F70A66100A71059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A75E12E04A07F35F674FDC /* Pods-SpyderWebTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +710,7 @@
 		};
 		A54FF7261F70A66100A71059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B7B122A2BA7DAD47CD618E /* Pods-SpyderWebUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JC5UA2XZJW;
@@ -532,6 +724,7 @@
 		};
 		A54FF7271F70A66100A71059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022479F3BEADF22DEAA2F2B8 /* Pods-SpyderWebUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = JC5UA2XZJW;
